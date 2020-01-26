@@ -1,0 +1,25 @@
+git init 							(Initialize the Folder)
+
+git status 							(Check status of Folder)
+
+git add .					 		(ADD ALL on Git)
+
+git add [filename.txt] 						(ADD Seleted File on Git)
+
+git commit -m "initial commit" 					(Commit message)
+
+git remote add origin 	https:// github.com/asasas		(add github origin https)
+
+git push origin master 						(push whole data from local to cloud storgae)
+
+
+
+git diff									(Comparing last push code to working stage)	
+
+git diff --staged							(Comparing staging Area to working stage	after Run  (git add .) command but on in Master stage)
+
+git checkout -filename						(get files or copy files from staging area)
+
+git rm --cached  filename.py				(Removed from cashed but available on Staging Area)  
+
+git rm filename.py							(Removed file) 
